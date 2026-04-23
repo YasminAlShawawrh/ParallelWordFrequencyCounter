@@ -15,7 +15,6 @@ The goal is to evaluate execution time, scalability, and efficiency when process
 
 - [Overview](#overview)
 - [Approaches](#approaches)
-- [Program structure](#program-structure)
 - [Performance analysis](#performance-analysis)
 - [Results](#results)
 - [Limitations](#limitations)
@@ -68,15 +67,6 @@ Characteristics:
 Characteristics:
 - Faster due to shared memory
 - Risk of **race conditions** (no synchronization used)
-
----
-
-## Program structure
-├── NaiveCode.txt           # Sequential implementation
-├── MultiprocessingCode.txt # Fork-based parallel version
-├── MultithreadingCode.txt  # pthread-based version
-└── OS_ProjectOne.pdf       # Full report
-
 
 ---
 
