@@ -44,8 +44,6 @@ Each approach differs in how it processes the data:
 - Reads file → sorts → counts frequencies → sorts again
 - Serves as a **baseline for comparison**
 
-Key idea:
-> Simple but slow for large datasets :contentReference[oaicite:1]{index=1}  
 
 ---
 
@@ -69,7 +67,7 @@ Characteristics:
 
 Characteristics:
 - Faster due to shared memory
-- Risk of **race conditions** (no synchronization used) :contentReference[oaicite:2]{index=2}  
+- Risk of **race conditions** (no synchronization used)
 
 ---
 
@@ -99,7 +97,7 @@ Parallel versions add:
 
 ### Naive
 - Fully sequential
-- ~98% of execution is **serial** :contentReference[oaicite:3]{index=3}  
+- ~98% of execution is **serial** 
 - Slowest approach
 
 ---
@@ -111,7 +109,7 @@ Parallel versions add:
 From report (page 16–17):
 - 2 processes → slower
 - 6 processes → fastest (~138 sec)
-- 8 processes → slower again due to overhead :contentReference[oaicite:4]{index=4}  
+- 8 processes → slower again due to overhead 
 
 ---
 
@@ -122,7 +120,7 @@ From report (page 16–17):
 
 From report (page 22):
 - 8 threads → best performance
-- Slight improvements beyond 4 threads :contentReference[oaicite:5]{index=5}  
+- Slight improvements beyond 4 threads  
 
 ---
 
