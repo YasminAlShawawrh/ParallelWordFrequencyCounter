@@ -9,8 +9,6 @@ It compares three approaches:
 
 The goal is to evaluate execution time, scalability, and efficiency when processing large datasets.
 
- Full report: :contentReference[oaicite:0]{index=0}  
-
 ---
 
 ## able of contents
