@@ -11,7 +11,7 @@ The goal is to evaluate execution time, scalability, and efficiency when process
 
 ---
 
-## able of contents
+## Table of contents
 
 - [Overview](#overview)
 - [Approaches](#approaches)
